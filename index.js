@@ -15,11 +15,13 @@
  }
  
  function inc(n) {
-   return n++ 
+   n = n++
+   return n
  }
  
  function dec(n) {
-   return n--
+   n = n--
+   return n
  }
  
  function makeInt(n) {
